@@ -1,0 +1,122 @@
+.quote{
+    font-size: 50px;
+    font-family: "Sofia";
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.CountDown{
+    width: Auto;
+    height: auto;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    display: flex;
+    font-variant-numeric: slashed-zero;
+}
+
+.YourProgress{
+    width: auto;
+    height: auto;
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    display: flex;
+    font-size: 30px;
+    font-family: "Sofia";
+    text-shadow: 3px 3px 3px #ababab;
+    position: absolute;
+    color: #F6AFAD;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.YourProgress:hover{
+    box-shadow: 3px 3px 3px #ababab;
+}
+
+.TimeEmoji{
+    font-size: 50px;
+}
+
+.TimeSize{
+    font-size: 50px;
+    font-family: "Sofia";
+    text-shadow: 3px 3px 3px #ababab;
+    color: aqua;
+}
+
+.WholeDiv{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./Dream.jpg');
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat, repeat;
+}
+
+.back{
+    background-color: aliceblue;
+    border-radius: 10%;
+    text-align: center;
+    font-size: x-large;
+    height: auto;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: aqua;
+    font-family: "Sofia";
+    text-shadow: 3px 3px 3px #ababab;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 5px 10px 18px aqua;
+}
+
+.running{
+    background-color: aliceblue;
+    border-radius: 10%;
+    text-align: center;
+    font-size: x-large;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    top:80px;
+    color: aqua;
+    font-family: "Sofia";
+    text-shadow: 3px 3px 3px #ababab;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 10px;
+    box-shadow: 5px 5px 18px aqua;
+}
+
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+
+.font-effect-fire-animation{
+    font-size: 50px;
+    font-family: "Sofia";
+    text-shadow: 3px 3px 3px #ababab;
+    position: absolute;
+    top:10px;
+}
+
+p.course:hover{
+    height: auto;
+    width: 400px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 5%;
+    font-size: 25px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 2px 15px aqua;
+}
+
+div.TimeSize:hover{
+    font-size: 55px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 2px 15px aqua;
+  border-radius: 5%;
+}
